@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2020-08-23T01:07:53.267Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" version="13.5.8" etag="ICyvsUHve2AuN3zUD_lT" type="github"><diagram id="S2241ETDOxUmniaZu61i">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-08-23T01:17:38.805Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="eg0mq4XVKtBlyw7_rlac" version="13.5.8" type="github">
+  <diagram id="S2241ETDOxUmniaZu61i" name="Page-1">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="S-OSa_IPRYb5sDzU_6Qq-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S-OSa_IPRYb5sDzU_6Qq-1" target="S-OSa_IPRYb5sDzU_6Qq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S-OSa_IPRYb5sDzU_6Qq-1" value="Thao tác từ giao diện" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S-OSa_IPRYb5sDzU_6Qq-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S-OSa_IPRYb5sDzU_6Qq-2" target="S-OSa_IPRYb5sDzU_6Qq-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S-OSa_IPRYb5sDzU_6Qq-2" value="Khởi tạo 1 Facebook Client thông qua class FacebookClient.cs" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="160" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S-OSa_IPRYb5sDzU_6Qq-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S-OSa_IPRYb5sDzU_6Qq-4" target="S-OSa_IPRYb5sDzU_6Qq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S-OSa_IPRYb5sDzU_6Qq-4" value="Gọi một phương thức tương ứng với yêu cầu từ giao diện" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="290" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S-OSa_IPRYb5sDzU_6Qq-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S-OSa_IPRYb5sDzU_6Qq-6" target="S-OSa_IPRYb5sDzU_6Qq-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S-OSa_IPRYb5sDzU_6Qq-6" value="Sử dụng phương pháp&amp;nbsp; thực hiện không đồng bộ với mỗi 1 yêu cầu đến Facebook là Task" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="225" y="420" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S-OSa_IPRYb5sDzU_6Qq-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S-OSa_IPRYb5sDzU_6Qq-8" target="S-OSa_IPRYb5sDzU_6Qq-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S-OSa_IPRYb5sDzU_6Qq-8" value="Chờ đến khi có kết quả trả về (await)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S-OSa_IPRYb5sDzU_6Qq-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S-OSa_IPRYb5sDzU_6Qq-10" target="S-OSa_IPRYb5sDzU_6Qq-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S-OSa_IPRYb5sDzU_6Qq-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S-OSa_IPRYb5sDzU_6Qq-10" target="S-OSa_IPRYb5sDzU_6Qq-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S-OSa_IPRYb5sDzU_6Qq-10" value="Kiểm tra kết quả có lỗi hay&amp;nbsp; không" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="262.5" y="680" width="195" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="S-OSa_IPRYb5sDzU_6Qq-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S-OSa_IPRYb5sDzU_6Qq-12" target="S-OSa_IPRYb5sDzU_6Qq-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S-OSa_IPRYb5sDzU_6Qq-12" value="Gắn vào 1 biến để xử lý sau" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="895" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S-OSa_IPRYb5sDzU_6Qq-16" value="Không lỗi" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="820" width="66" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="S-OSa_IPRYb5sDzU_6Qq-18" value="Hiển thị kết quả lên giao diện hoặc thực hiện tiếp các lệnh khác." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1050" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S-OSa_IPRYb5sDzU_6Qq-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S-OSa_IPRYb5sDzU_6Qq-20" target="S-OSa_IPRYb5sDzU_6Qq-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S-OSa_IPRYb5sDzU_6Qq-20" value="Thông báo lỗi cho người dùng" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="575" y="705" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S-OSa_IPRYb5sDzU_6Qq-22" value="Lỗi" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="705" width="66" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="S-OSa_IPRYb5sDzU_6Qq-23" value="Chờ lệnh/ thao tác tiếp theo của người dùng" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="566.25" y="895" width="182.5" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
